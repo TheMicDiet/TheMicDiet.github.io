@@ -1,7 +1,27 @@
 <html>
 <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
 </head>
 <body>
-<h1>Work in progress</h1>
+    <p id="text">Hallo</p>
+    <script>let x = document.getElementById("text")
+x.style.backgroundColor = "lightblue"
+x.style.fontSize = 20
+let t = document.createElement("a")
+t.innerHTML = "Hi"
+x.parentNode.appendChild(t)
+let y = 1000
+setInterval(function(){
+    x.style.paddingLeft = y
+    if(y == 0) {
+        clearInterval()
+    }
+    y = y - 2
+
+
+
+},5)
+</script>
 </body>
 </html>
