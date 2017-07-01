@@ -1,11 +1,11 @@
 # Site settings
 
-title: Michael Dietrich 
+title: Mi-Dietrich.de
 email: info@mi-dietrich.de
 url: http://www.mi-dietrich.de/
-description: "Mi-Dietrich"
-keywords: "mi-dietrich"
-skills: "Progammierer - Bastler - Gamer"
+description: "Mi-Dietrich.de - Michael Dietrich - Programmierer - Technikbegeisterter Bastler - Gamer - Hobbypilot"
+keywords: "mi-dietrich, Michael Dietrich, Informatiker, Drohnen, Quadcopter, Bastler, Gamer"
+skills: "Programmierer - Bastler - Gamer - Hobbypilot"
 meta_author: Michael Dietrich
 
 
@@ -27,17 +27,17 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 1970fc #80B3FF
-  primary-rgb: "25, 112, 252" #"128,179,255"
-  secondary: 0343ad #FD6E8A
-  secondary-dark: 02307b #A2122F
+  primary: 3b8ef9 #80B3FF
+  primary-rgb: "59, 142, 249" #"128,179,255"
+  secondary: 9ca5af #FD6E8A
+  secondary-dark: 5d646d #A2122F
 
 # Footer settings
 footer:
   copyright: Michael Dietrich
   location: Location
   social: Around the Web
-  #credits: Credits
+  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -55,7 +55,7 @@ address:
   - line: Germany
 
 # Credits content
-#credits: ''
+credits: ''
 
 # Build settings
 markdown: kramdown
