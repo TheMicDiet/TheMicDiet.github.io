@@ -27,28 +27,24 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 1970fc #80B3FF
+  primary-rgb: "25, 112, 252" #"128,179,255"
+  secondary: 0343ad #FD6E8A
+  secondary-dark: 02307b #A2122F
 
 # Footer settings
 footer:
   copyright: Michael Dietrich
   location: Location
   social: Around the Web
-  credits: Credits
+  #credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/themicdiet
-  - title: facebook
-    url:
+    url: http://twitter.com/themicdiet 
   - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: 
+    url: https://stackoverflow.com/users/8240663/themicdiet 
   - title: github
     url: http://github.com/themicdiet
 
@@ -56,9 +52,10 @@ social:
 address:
   - line: Klotzbergstraße 12
   - line: 77830 Bühlertal
+  - line: Germany
 
 # Credits content
-credits: ''
+#credits: ''
 
 # Build settings
 markdown: kramdown
