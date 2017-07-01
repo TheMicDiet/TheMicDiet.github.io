@@ -10,7 +10,7 @@ meta_author: Michael Dietrich
 
 
 # Google webmaster tools
-google_verify: google4d4a79d735cd603d.html
+google_verify: qNhXucCdPqubup-H2f8SVJMjaI-Cx8QMQ3pgc1aVYrA
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
@@ -49,9 +49,8 @@ social:
     url: http://github.com/themicdiet
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: Klotzbergstraße 12
-  - line: 77830 Bühlertal
+address:  
+  - line: Bühlertal
   - line: Germany
 
 # Credits content
