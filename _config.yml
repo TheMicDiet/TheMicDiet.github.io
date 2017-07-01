@@ -1,4 +1,5 @@
 # Site settings
+
 title: Michael Dietrich 
 email: info@mi-dietrich.de
 url: http://www.mi-dietrich.de/
@@ -6,6 +7,7 @@ description: "Mi-Dietrich"
 keywords: "mi-dietrich"
 skills: "Progammierer - Bastler - Gamer"
 meta_author: Michael Dietrich
+
 
 # Google webmaster tools
 google_verify: google4d4a79d735cd603d.html
