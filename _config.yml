@@ -5,7 +5,7 @@ email: info@mi-dietrich.de
 url: http://www.mi-dietrich.de/
 description: "Mi-Dietrich.de - Michael Dietrich - Programmierer - Technikbegeisterter Bastler - Gamer - Hobbypilot"
 keywords: "mi-dietrich, Michael Dietrich, Informatiker, Drohnen, Quadcopter, Bastler, Gamer"
-skills: "Programmierer - Bastler - Gamer - Hobbypilot"
+skills: "Programmierer - Bastler - Gamer"
 meta_author: Michael Dietrich
 
 
@@ -29,7 +29,7 @@ disqus_shortname: myshortname
 color:
   primary: 3ec173 #80B3FF
   primary-rgb: "62, 193, 115" #"128,179,255"
-  secondary: 083670 #FD6E8A
+  secondary: 1f9619 #FD6E8A
   secondary-dark: 082549 #A2122F 
 
 # Footer settings
