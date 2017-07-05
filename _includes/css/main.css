@@ -178,6 +178,9 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
+.navbar {
+    background-color: #{{ site.color.secondary }}
+}
 
 .navbar-default,
 .navbar-inverse {
@@ -471,5 +474,4 @@ footer .footer-below {
 a, p {
     font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-.navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}
-.navbar {min-height:40px !important}
+
