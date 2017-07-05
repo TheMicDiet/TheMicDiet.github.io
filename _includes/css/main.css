@@ -346,12 +346,12 @@ footer .footer-above {
 }
 
 footer .footer-col {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 footer .footer-below {
-    padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    padding: 0px 0;
+    background-color: #{{ site.color.secondary }};
 }
 
 .btn-social {
