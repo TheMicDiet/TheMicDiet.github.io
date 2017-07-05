@@ -74,7 +74,7 @@ hr.star-header {
 }
 hr.star-header:after {
     color: rgba(255,0,0,0);
-    background-color: rgba(255,0,0,0);
+    background-color: #fff;
 }
 hr.star-light:after {
     color: #fff;
