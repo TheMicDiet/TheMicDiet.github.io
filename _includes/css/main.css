@@ -112,7 +112,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-    font-size: 1.25em;
+    font-size: 1.5em;
     font-weight: 300;
 }
 
@@ -351,7 +351,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: #{{ site.color.secondary }};
 }
 
 .btn-social {
