@@ -3,6 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
 
 body {
     overflow-x: hidden;
@@ -32,7 +33,7 @@ h4,
 h5,
 h6 {
     
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
 }
 
@@ -97,7 +98,7 @@ header img {
 
 header .intro-text .name {
     display: block;    
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -147,7 +148,7 @@ header .intro-text .skills {
 }
 
 .navbar {    
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
