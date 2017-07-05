@@ -453,3 +453,6 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+a, p {
+    font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
