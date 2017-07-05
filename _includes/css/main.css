@@ -36,11 +36,9 @@ h6 {
     font-family: 'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
 }
-.navbar {
-    opacity: 0.85;
-}
+
 .navbar li a {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 .navbar li a:clicked {
     color: white;
