@@ -3,7 +3,7 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
 
 body {
     overflow-x: hidden;
@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: white;
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -67,10 +67,12 @@ hr.star-primary:after {
 hr.star-light {
     border-color: #fff;
 }
-
+hr.star-header {
+    border-color: #fff;
+}
 hr.star-light:after {
     color: #fff;
-    background-color: rgba(0,0,0,0);
+    background-color: #{{ site.color.primary }};
    
 }
 
