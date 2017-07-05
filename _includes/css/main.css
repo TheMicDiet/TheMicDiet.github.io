@@ -70,7 +70,7 @@ hr.star-light {
     border-color: #fff;
 }
 hr.star-header {
-    border-color: #fff;
+    border-color: rgba(255,0,0,0);
 }
 hr.star-header:after {
     color: #fff;
