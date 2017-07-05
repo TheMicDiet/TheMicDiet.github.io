@@ -73,8 +73,8 @@ hr.star-header {
     border-color: #fff;
 }
 hr.star-header:after {
-    color: rgba(255,0,0,0);
-    background-color: #fff;
+    color: #fff;
+    background-color: rgba(255,0,0,0);
 }
 hr.star-light:after {
     color: #fff;
