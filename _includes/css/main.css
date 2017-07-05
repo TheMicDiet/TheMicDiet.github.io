@@ -36,7 +36,9 @@ h6 {
     font-family: 'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 600;
 }
-
+.navbar {
+    opacity: 0.5;
+}
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
