@@ -198,7 +198,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    background-image: url("/img/about.jpg");
 }
 
 @media(max-width:767px) {
