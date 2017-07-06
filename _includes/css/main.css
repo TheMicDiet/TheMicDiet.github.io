@@ -179,7 +179,7 @@ header .intro-text .skills {
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-.navbar {
+.navbar-default {
     background-color: #{{ site.color.secondary }}
 }
 
@@ -465,6 +465,10 @@ footer .footer-below {
 .navbar-nav>.active>a {
     background-color: #{{ site.color.primary }} !important;
 }
+.navbar-nav a:hover: {
+    color: #{{ site.color.primary }}
+}
+
 
 /* Fix modal mouse wheel issues */
 /* https://github.com/twbs/bootstrap/issues/16297 */
