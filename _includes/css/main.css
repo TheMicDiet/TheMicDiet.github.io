@@ -45,7 +45,8 @@ h6 {
 }
 hr.star-light,
 hr.star-primary,
-hr.star-header {
+hr.star-header,
+hr.m {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
