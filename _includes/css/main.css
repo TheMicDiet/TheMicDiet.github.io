@@ -480,9 +480,9 @@ a, p {
 .navbar .navbar-nav li a:hover {
     color: #1e90ff;
 }
-.navbar .navbar-brand:hover, .navbar .navbar-brand:visited {
+.navbar .navbar-brand:hover, .navbar .navbar-brand:active {
     color: #1e90ff;
 }
-a .btn btn-success btn-lg:hover {
+button .btn btn-success btn-lg:hover {
     color: #1e90ff
 }
