@@ -489,6 +489,6 @@ a, p {
 .navbar .navbar-brand:visited {
     color: white;
 }
-.btn btn-success btn-lg:hover {
+.btn btn-success:hover btn-lg:hover {
     color: #1e90ff
 }
