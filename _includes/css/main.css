@@ -485,4 +485,6 @@ a, p {
 .navbar-right li a:visited , navbar-brand:visited {
     color: white;
 }
-    
+.navbar .navbar-nav li a:hover {
+    color: white;
+}
