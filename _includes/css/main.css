@@ -495,3 +495,7 @@ a, p {
 .btn:hover, btn-success:hover, btn-lg:hover {
     background-color: #1e90ff;
 }
+.btn:visited, btn-success:visited, btn-lg:visited {
+    background-color: #1e90ff;
+}
+
