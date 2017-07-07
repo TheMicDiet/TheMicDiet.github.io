@@ -479,3 +479,10 @@ a, p {
     font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-right a:hover , navbar-brand a:hover {
+    color: white;
+}
+.navbar-right a:visited , navbar-brand a:visited {
+    color: white;
+}
+    
