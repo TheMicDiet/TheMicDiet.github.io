@@ -480,11 +480,14 @@ a, p {
 .navbar .navbar-nav li a:hover {
     color: #1e90ff;
 }
+.navbar .navbar-nav li a:visited {
+    color: white;
+}
 .navbar .navbar-brand:hover {
     color: #1e90ff;
 }
 .navbar .navbar-brand:visited {
-    color: #1e90ff;
+    color: white;
 }
 .btn btn-success btn-lg:hover {
     color: #1e90ff
