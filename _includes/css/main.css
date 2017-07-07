@@ -480,6 +480,6 @@ a, p {
 .navbar .navbar-nav li a:hover {
     color: #87CEFA;
 }
-.navbar-brand:hover {
+.navbar .navbar-brand:hover {
     color: #87CEFA;
 }
