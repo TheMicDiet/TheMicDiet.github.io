@@ -477,6 +477,9 @@ a, p {
     font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.navbar-brand .navbar .navbar-nav li a:hover {
+.navbar .navbar-nav li a:hover {
+    color: #87CEFA;
+}
+.navbar-brand:hover {
     color: #87CEFA;
 }
