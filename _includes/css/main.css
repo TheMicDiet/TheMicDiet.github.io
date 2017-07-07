@@ -464,9 +464,7 @@ footer .footer-below {
 .navbar-nav>.active>a {
     background-color: #{{ site.color.primary }} !important;
 }
-.navbar-nav a:hover: {
-    color: #{{ site.color.primary }};
-}
+
 
 
 /* Fix modal mouse wheel issues */
@@ -479,12 +477,6 @@ a, p {
     font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.navbar-right li a:hover , navbar-brand:hover {
-    color: white;
-}
-.navbar-right li a:visited , navbar-brand:visited {
-    color: white;
-}
 .navbar-brand .navbar .navbar-nav li a:hover {
-    color: #{{ site.color.primary }};
+    color: lightblue;
 }
