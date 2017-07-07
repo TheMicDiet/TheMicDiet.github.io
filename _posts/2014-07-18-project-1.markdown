@@ -6,5 +6,5 @@ img: cabin.png
 alt: image-alt
 project-date: July 2017
 category: Javascript
-description: A discord bot written in javascript with many functions. [https://github.com/TheMicDiet/BasicBot](Github)
+description: A discord bot written in javascript with many functions. [GitHub](https://github.com/TheMicDiet/BasicBot)
 ---
