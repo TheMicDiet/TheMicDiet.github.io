@@ -496,16 +496,8 @@ a, p {
 .navbar .navbar-brand:active {
     color: white !important;
 }
-.btn:hover btn-success:hover btn-lg:hover {
-    background-color: #1e90ff !important;
-}
-.btn:visited, btn-success:visited, btn-lg:visited {
-    background-color: #1e90ff !important;
-}
-.btn:active, btn-success:active, btn-lg:active {
-    background-color: #1e90ff !important;
-}
-.btn:focus, btn-success:focus, btn-lg:focus {
+
+.btn:focus,  .btn:visited, .btn:active, .btn:hover {
     background-color: #1e90ff !important;
 }
 
