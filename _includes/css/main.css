@@ -478,26 +478,19 @@ a, p {
 }
 
 .navbar .navbar-nav li a:hover {
-    color: #1e90ff;
+    color: #1e90ff !important;
 }
-.navbar .navbar-nav li a:visited {
-    color: white !important;
-}
-.navbar .navbar-nav li a:active {
+.navbar .navbar-nav li a:visited,  .navbar .navbar-nav li a:active, .navbar .navbar-nav li a:focus {
     color: white !important;
 }
 
-.navbar .navbar-brand:hover {
+.navbar .navbar-brand:hover, .navbar .navbar-brand:visited,.navbar .navbar-brand:active, .navbar .navbar-brand:focus  {
     color: #1e90ff !important;
 }
-.navbar .navbar-brand:visited {
-    color: white !important;
-}
-.navbar .navbar-brand:active {
-    color: white !important;
-}
+
 
 .btn:focus,  .btn:visited, .btn:active, .btn:hover {
     background-color: #1e90ff !important;
+    border-color: darkblue !important;
 }
 
