@@ -505,4 +505,7 @@ a, p {
 .btn:active, btn-success:active, btn-lg:active {
     background-color: #1e90ff !important;
 }
+.btn:focus, btn-success:focus, btn-lg:focus {
+    background-color: #1e90ff !important;
+}
 
