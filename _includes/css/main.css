@@ -477,17 +477,17 @@ a, p {
     font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus {
+.navbar .navbar-nav li a:hover {
     color: #1e90ff !important;
 }
-.navbar .navbar-nav li a:visited,  .navbar .navbar-nav li a:active {
+.navbar .navbar-nav li a:visited,  .navbar .navbar-nav li a:active, .navbar .navbar-nav li a:focus  {
     color: white !important;
 }
 
-.navbar .navbar-brand:hover,.navbar .navbar-brand:focus  {
+.navbar .navbar-brand:hover,.navbar {
     color: #1e90ff !important;
 }
-.navbar .navbar-brand:visited,.navbar .navbar-brand:active {
+.navbar .navbar-brand:visited,.navbar .navbar-brand:active, .navbar-brand:focus {
      color: white !important;
 }
 
