@@ -496,5 +496,5 @@ a, p {
     border-color: darkblue !important;
 }
 .btn {
-    background-color: #{{ site.color.secondary }} !important;
+    background-color: blue !important;
 }
