@@ -484,10 +484,12 @@ a, p {
     color: white !important;
 }
 
-.navbar .navbar-brand:hover, .navbar .navbar-brand:visited,.navbar .navbar-brand:active, .navbar .navbar-brand:focus  {
+.navbar .navbar-brand:hover {
     color: #1e90ff !important;
 }
-
+.navbar .navbar-brand:visited,.navbar .navbar-brand:active, .navbar .navbar-brand:focus {
+     color: white !important;
+}
 
 .btn:focus,  .btn:visited, .btn:active, .btn:hover {
     background-color: #1e90ff !important;
