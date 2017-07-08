@@ -477,22 +477,24 @@ a, p {
     font-family:'Libre Franklin',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.navbar .navbar-nav li a:hover {
+.navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:focus {
     color: #1e90ff !important;
 }
-.navbar .navbar-nav li a:visited,  .navbar .navbar-nav li a:active, .navbar .navbar-nav li a:focus {
+.navbar .navbar-nav li a:visited,  .navbar .navbar-nav li a:active {
     color: white !important;
 }
 
-.navbar .navbar-brand:hover {
+.navbar .navbar-brand:hover,.navbar .navbar-brand:focus  {
     color: #1e90ff !important;
 }
-.navbar .navbar-brand:visited,.navbar .navbar-brand:active, .navbar .navbar-brand:focus {
+.navbar .navbar-brand:visited,.navbar .navbar-brand:active {
      color: white !important;
 }
 
-.btn:focus,  .btn:visited, .btn:active, .btn:hover {
+.btn:focus, .btn:visited, .btn:active, .btn:hover {
     background-color: #1e90ff !important;
     border-color: darkblue !important;
 }
-
+.btn {
+    background-color: #{{ site.color.secondary }} !important;
+}
