@@ -7,7 +7,7 @@ const highscoreDisplay = document.getElementById("highscore").innerText = "Highs
 tetris.width = 800
 tetris.height = (tetris.width / 2) * 3
  
-const scaleOfBlock = tetris.width / 40
+const scaleOfBlock = tetris.width / 10
 const context = tetris.getContext('2d')
 context.scale(scaleOfBlock, scaleOfBlock)
 context.fillStyle = "#191919"
