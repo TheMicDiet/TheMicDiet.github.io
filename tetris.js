@@ -278,11 +278,12 @@ document.addEventListener('keydown', event => {
 
 let mc = new Hammer(tetris) 
 mc.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
-mc.on("swipeleft", function(ev) {
+mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+mc.on("panleft", function(ev) {
     movePlayer(-1)
     status = true
 })
-mc.on("swiperight", function(ev) {
+mc.on("panright", function(ev) {
     movePlayer(1)
     status = true
 })
