@@ -4,7 +4,7 @@ const quizDisplay = document.getElementById("quiz")
 const questionsLeftDisplay = document.getElementById("questionCount")
 const rightAnswersDisplay = document.getElementById("rightAnswers")
 const buttons = document.getElementsByTagName("button")
-
+quizDisplay.style.color = "black"
 let i = 0
 if (localStorage.getItem("question") !== null) {
     i = Number(localStorage.getItem("question"))
@@ -44,17 +44,18 @@ function checkAnswer(boolean) {
             quizDisplay.style.color = "green"
             if(questions[i].answer === boolean) {
                 buttons[0].style.color = "green"
-            score++; } else {
-                buttons[0].style.color = "red"
+                score++;
+            } else {
+                buttons[1].style.color = "red"
             }        
                              
         } else {
             quizDisplay.style.color = "red"   
-            if(questions[i].answer !== boolean) {
-                buttons[1].style.color = "red"
+            if(questions[i].answer === boolean) {
+                buttons[1].style.color = "green"
                 score++; 
             } else {
-                buttons[1].style.color = "green"
+                buttons[0].style.color = "red"
             }      
         }
 
