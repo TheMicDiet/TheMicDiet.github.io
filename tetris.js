@@ -313,24 +313,52 @@ document.addEventListener('keydown', event => {
     }
 })
 
-/* let mc = new Hammer(tetris) 
-mc.get('pan').set({ direction: Hammer.DIRECTION_ALL });
-mc.get('swipe').set({ direction: Hammer.DIRECTION_ALL });
-mc.on("panleft", function(ev) {
-    movePlayer(-1)
-    isRunning = true
-})
-mc.on("panright", function(ev) {
-    movePlayer(1)
-    isRunning = true
-})
-mc.on("swipeup", function(ev) {
-    rotateMatrix(player.matrix)
-    isRunning = true
-});
-mc.on("swipedown", function(ev) {
-    player.moveDownPlayer()
-    isRunning = true
-}); */
+
+//touch recognization
+
+document.addEventListener('touchstart', handleTouchStart, false);        
+document.addEventListener('touchmove', handleTouchMove, false);
+
+var xDown = null;                                                        
+var yDown = null;                                                        
+
+function handleTouchStart(evt) {                                         
+    xDown = evt.touches[0].clientX;                                      
+    yDown = evt.touches[0].clientY;                                      
+};                                                
+
+function handleTouchMove(evt) {
+    if ( ! xDown || ! yDown ) {
+        return;
+    }
+
+    var xUp = evt.touches[0].clientX;                                    
+    var yUp = evt.touches[0].clientY;
+
+    var xDiff = xDown - xUp;
+    var yDiff = yDown - yUp;
+
+    if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
+        if ( xDiff > 0 ) {
+            /* left swipe */
+            movePlayer(-1) 
+        } else {
+            /* right swipe */
+            movePlayer(1)
+        }                       
+    } else {
+        if ( yDiff > 0 ) {
+            /* up swipe */
+            rotatePlayer()
+            isRunning = true 
+        } else { 
+            /* down swipe */
+            moveDownPlayer()
+        }                                                                 
+    }
+    /* reset values */
+    xDown = null;
+    yDown = null;                                             
+};
 
 update()
