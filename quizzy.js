@@ -10,6 +10,11 @@ let i = 0
 if (localStorage.getItem("question") !== null &&  Number(localStorage.getItem("question") < questions.lenght)) {
     i = Number(localStorage.getItem("question"))    
 }
+if(i === questions.lenght) {
+    i = 0
+    localStorage.setItem("question", 0)
+}
+
 let score =  0
 if (localStorage.getItem("score") !== null) {
     score = Number(localStorage.getItem("score"))    
@@ -70,8 +75,10 @@ function checkAnswer(boolean) {
         } else {
             i = 0;
             questionsLeft = questions.length
+            questionsLeftDisplay.innerText = questionsLeft  + " Fragen übrig."
             window.alert(`Alle Fragen wurden beantwortet. Du hast ${score} von ${questions.length} Fragen richtig beantwortet. :)`)
             score = 0
+            localStorage.setItem("score", 0)
         }
         
         localStorage.setItem("question", i)
