@@ -5,12 +5,17 @@ const questionsLeftDisplay = document.getElementById("questionCount")
 const rightAnswersDisplay = document.getElementById("rightAnswers")
 const buttons = document.getElementsByTagName("button")
 quizDisplay.style.color = "black"
+
 let i = 0
 if (localStorage.getItem("question") !== null) {
     i = Number(localStorage.getItem("question"))
     
 }
 let score =  0
+if (localStorage.getItem("score") !== null) {
+    score = Number(localStorage.getItem("score"))
+    
+}
 
 let questionsLeft = questions.length - i
 questionsLeftDisplay.innerText = questionsLeft  + " Fragen übrig."
@@ -65,7 +70,7 @@ function checkAnswer(boolean) {
             i++
         } else {
             i = 0;
-            window.alert("Alle Fragen wurden beantwortet.")
+            window.alert(`Alle Fragen wurden beantwortet. Du hast ${score} von ${questions.length} Fragen richtig beantwortet. :)`)
         }
         
         localStorage.setItem("question", i)
