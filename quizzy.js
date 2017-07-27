@@ -7,9 +7,8 @@ const buttons = document.getElementsByTagName("button")
 quizDisplay.style.color = "black"
 
 let i = 0
-if (localStorage.getItem("question") !== null) {
-    i = Number(localStorage.getItem("question"))
-    
+if (localStorage.getItem("question") !== null && i !== (questions.length - 1) {
+    i = Number(localStorage.getItem("question"))    
 }
 let score =  0
 if (localStorage.getItem("score") !== null) {
