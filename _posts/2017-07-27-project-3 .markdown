@@ -1,0 +1,12 @@
+---
+layout: default
+title: "SWTI - Quiz"
+modal-id: 3
+date: 2017-07-27
+img: quiz.png
+alt: quiz
+project-date: Juli 2017
+link: http://mi-dietrich.de/quiz/
+category: Javascript
+description: Ein Quiz passend zur Vorlesung SWT I am KIT. 
+---

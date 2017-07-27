@@ -1,0 +1,12 @@
+---
+layout: default
+title: "Tetris"
+modal-id: 2
+date: 2017-07-27
+img: tetris.png
+alt: tetris
+project-date: Juli 2017
+link: http://mi-dietrich.de/tetris/
+category: Javascript
+description: A tetris game written in Javascript.
+---
