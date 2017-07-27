@@ -7,7 +7,7 @@ const buttons = document.getElementsByTagName("button")
 quizDisplay.style.color = "black"
 
 let i = 0
-if (localStorage.getItem("question") !== null) {
+if (localStorage.getItem("question") !== null &&  Number(localStorage.getItem("question") < questions.lenght)) {
     i = Number(localStorage.getItem("question"))
     
 }
