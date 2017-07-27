@@ -7,13 +7,13 @@ const buttons = document.getElementsByTagName("button")
 quizDisplay.style.color = "black"
 
 let i = 0
-if (localStorage.getItem("question") !== null && Number(localStorage.getItem("question")) !== (questions.length - 1) {
-    i = Number(localStorage.getItem("question"))    
+if (localStorage.getItem("question") !== null) {
+    i = Number(localStorage.getItem("question"))
+    
 }
 let score =  0
 if (localStorage.getItem("score") !== null) {
-    score = Number(localStorage.getItem("score"))
-    
+    score = Number(localStorage.getItem("score"))    
 }
 
 let questionsLeft = questions.length - i
@@ -48,7 +48,7 @@ function checkAnswer(boolean) {
             quizDisplay.style.color = "green"
             if(questions[i].answer === boolean) {
                 buttons[0].style.color = "green"
-                score++
+                score++;
                 localStorage.setItem("score", score)
             } else {
                 buttons[1].style.color = "red"
@@ -58,7 +58,7 @@ function checkAnswer(boolean) {
             quizDisplay.style.color = "red"   
             if(questions[i].answer === boolean) {
                 buttons[1].style.color = "green"
-                score++
+                score++; 
             } else {
                 buttons[0].style.color = "red"
             }      
@@ -66,10 +66,10 @@ function checkAnswer(boolean) {
 
         questionsLeft--
         questionsLeftDisplay.innerText = questionsLeft + " Fragen übrig."
-        if(i < questions.length - 1) {
+        if(questionsLeft !== 0) {
             i++
         } else {
-            i = 0
+            i = 0;
             window.alert(`Alle Fragen wurden beantwortet. Du hast ${score} von ${questions.length} Fragen richtig beantwortet. :)`)
         }
         
