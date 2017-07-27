@@ -3,8 +3,8 @@ layout: default
 title: "Discord Bot"
 modal-id: 1
 date: 2017-07-07
-img: cabin.png
-alt: image-alt
+img: discord.png
+alt: discord
 project-date: Juli 2017
 link: https://github.com/TheMicDiet/BasicBot
 category: Javascript
