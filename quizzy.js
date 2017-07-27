@@ -7,7 +7,7 @@ const buttons = document.getElementsByTagName("button")
 quizDisplay.style.color = "black"
 
 let i = 0
-if (localStorage.getItem("question") !== null && i !== (questions.length - 1) {
+if (localStorage.getItem("question") !== null && Number(localStorage.getItem("question")) !== (questions.length - 1) {
     i = Number(localStorage.getItem("question"))    
 }
 let score =  0
@@ -69,7 +69,7 @@ function checkAnswer(boolean) {
         if(i < questions.length - 1) {
             i++
         } else {
-            i = 0;
+            i = 0
             window.alert(`Alle Fragen wurden beantwortet. Du hast ${score} von ${questions.length} Fragen richtig beantwortet. :)`)
         }
         
