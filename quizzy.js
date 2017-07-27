@@ -8,8 +8,7 @@ quizDisplay.style.color = "black"
 
 let i = 0
 if (localStorage.getItem("question") !== null &&  Number(localStorage.getItem("question") < questions.lenght)) {
-    i = Number(localStorage.getItem("question"))
-    
+    i = Number(localStorage.getItem("question"))    
 }
 let score =  0
 if (localStorage.getItem("score") !== null) {
@@ -66,12 +65,13 @@ function checkAnswer(boolean) {
 
         questionsLeft--
         questionsLeftDisplay.innerText = questionsLeft + " Fragen übrig."
-        if(questionsLeft > 0) {
+        if(i < questions.length - 1) {
             i++
         } else {
             i = 0;
             questionsLeft = questions.length
             window.alert(`Alle Fragen wurden beantwortet. Du hast ${score} von ${questions.length} Fragen richtig beantwortet. :)`)
+            score = 0
         }
         
         localStorage.setItem("question", i)
