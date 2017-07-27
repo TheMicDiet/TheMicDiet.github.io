@@ -18,15 +18,15 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Link:
-                                    <strong><a href="http://www.mi-dietrich.de/">{{ post.client }}</a>
+                                    <strong><p href="{{ post.link }}">{{ post.link }}</p>
                                     </strong>
                                 </li>
                                 <li>Datum:
-                                    <strong><a href="http://www.mi-dietrich.de/">{{ post.project-date }}</a>
+                                    <strong><p>{{ post.project-date }}</p>
                                     </strong>
                                 </li>
                                 <li>Sprache:
-                                    <strong><a href="http://www.mi-dietrich.de/">{{ post.category }}</a>
+                                    <strong><p>{{ post.category }}</p>
                                     </strong>
                                 </li>
                             </ul>
