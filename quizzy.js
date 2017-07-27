@@ -58,7 +58,7 @@ function checkAnswer(boolean) {
             quizDisplay.style.color = "red"   
             if(questions[i].answer === boolean) {
                 buttons[1].style.color = "green"
-                score++; 
+                score++
             } else {
                 buttons[0].style.color = "red"
             }      
@@ -66,7 +66,7 @@ function checkAnswer(boolean) {
 
         questionsLeft--
         questionsLeftDisplay.innerText = questionsLeft + " Fragen übrig."
-        if(i < questions.length) {
+        if(i < questions.length - 1) {
             i++
         } else {
             i = 0;
