@@ -70,6 +70,7 @@ function checkAnswer(boolean) {
             i++
         } else {
             i = 0;
+            questionsLeft = questions.length
             window.alert(`Alle Fragen wurden beantwortet. Du hast ${score} von ${questions.length} Fragen richtig beantwortet. :)`)
         }
         
