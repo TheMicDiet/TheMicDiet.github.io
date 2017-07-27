@@ -66,7 +66,7 @@ function checkAnswer(boolean) {
 
         questionsLeft--
         questionsLeftDisplay.innerText = questionsLeft + " Fragen übrig."
-        if(questionsLeft !== 0) {
+        if(questionsLeft > 0) {
             i++
         } else {
             i = 0;
