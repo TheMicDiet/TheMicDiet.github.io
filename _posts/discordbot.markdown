@@ -6,7 +6,7 @@ date: 2017-07-07
 img: cabin.png
 alt: image-alt
 project-date: July 2017
-client: https://github.com/TheMicDiet/BasicBot
+link: https://github.com/TheMicDiet/BasicBot
 category: Javascript
 description: A discord bot written in javascript with many functions.
 ---
