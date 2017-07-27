@@ -52,7 +52,7 @@ function checkAnswer(boolean) {
             quizDisplay.style.color = "green"
             if(questions[i].answer === boolean) {
                 buttons[0].style.color = "green"
-                score++;
+                score++
                 localStorage.setItem("score", score)
             } else {
                 buttons[1].style.color = "red"
@@ -62,7 +62,8 @@ function checkAnswer(boolean) {
             quizDisplay.style.color = "red"   
             if(questions[i].answer === boolean) {
                 buttons[1].style.color = "green"
-                score++; 
+                score++
+                localStorage.setItem("score", score)
             } else {
                 buttons[0].style.color = "red"
             }      
