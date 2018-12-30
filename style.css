@@ -1,7 +1,8 @@
 body {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: start;
+    margin-top: 10vh;
 }
 
 a,
@@ -66,4 +67,12 @@ a:hover {
     #footer-text {
         font-size: 1em;
     }
+}
+
+[data-toggle="collapse"] .fa:before {
+    content: "\f139";
+}
+
+[data-toggle="collapse"].collapsed .fa:before {
+    content: "\f13a";
 }

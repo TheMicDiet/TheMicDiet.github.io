@@ -30,10 +30,3 @@ let typer4 = new TypeIt('#project-text', {
         typer2.init()
     }
 }, false)
-
-
-$(document).click(function(e) {
-    if (!$(e.target).is('a')) {
-        $('.collapse').collapse('hide');
-    }
-});
