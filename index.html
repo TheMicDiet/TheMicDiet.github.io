@@ -3,46 +3,113 @@
 
 <head>
     <title>Michael Dietrich</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Major+Mono+Display|Orbitron|Press+Start+2P" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta lang="en">
 </head>
 
 
-<body style="background-color:rgb(24, 56, 104); font-family: Roboto; color:rgb(32, 32, 32)">
-    <div class="container mt-4 mb-3 p-4" style="background-color:white; -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-        -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
-        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);">
-        <div class="row justify-content-center">
-            <div class="col" style="font-size: 3em;"><a href=" https://twitter.com/TheMicDiet "><i class="fab fa-twitter float-right mt-3"></i></a>
+<body>
+
+    <div class="container">
+        <div class="d-flex flex-column align-items-center">
+            <div class="p-2">
+                <h1 id="header">Michael Dietrich</h1>
+
             </div>
-            <div class="col text-center">
-                <img src="profile.png " class="img-fluid border border-dark rounded-circle mx-auto mt-3">
-                <h1 class="mt-4 display-5 text-center"><b>Michael Dietrich</b></h1>
-                <h3 class="mb-5">Computer Science Student</h3>
+            <div class="p-3 social animated fadeIn delay-1s">
+                <a href="https://twitter.com/TheMicDiet"><i class="hov fab fa-twitter fa-2x"></i></a>
+                <a href="https://github.com/TheMicDiet"><i class="hov fab fa-github fa-2x"></i></a>
             </div>
-            <div class="col" style="font-size: 3em;">
-                <a href="https://github.com/TheMicDiet "><i class="fab fa-github float-left mt-3"></i></a>
+            <div class="p-3 about">
+                <a data-toggle="collapse" href="#about"><span id="about-text">About me</span></a>
+
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col">
-                <a href="https://play.google.com/store/apps/details?id=de.dietrich_mi.tetris "><img src="tetrs.png " class="img-fluid mx-auto d-block p-3"></a>
-                <a href="https://assistant.google.com/services/a/uid/000000a9332f0096?hl=en "><img src="coinprice.png " class="img-fluid mx-auto d-block p-3"></a>
+            <div class="collapse" id="about">
+                <center>
+                    <p><b>Computer Science student</b> @ KIT</p>
+                </center>
+
+                <table class="table table-borderless">
+                    <tbody>
+
+                        <tr>
+                            <th scope="row">Age</th>
+                            <td>21</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Location</th>
+                            <td>Germany</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">Languages</th>
+                            <td>German, English, Java, Javascript, C</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row">E-mail</th>
+                            <td>info(at)mi-dietrich.de</td>
+
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
+            <div class="p-3 projects">
+                <a data-toggle="collapse" href="#projects"><span id="project-text">Projects</span></a>
+            </div>
+            <div class="collapse p-3" id="projects">
+                <div class="row">
+                    <div class="col">
+                        <figure class="figure p-3">
+                            <a href="https://play.google.com/store/apps/details?id=de.dietrich_mi.tetris"><img src="tetrs.png" class="hov rounded-circle img-fluid mx-auto d-block p-3"></a>
+                            <figcaption class="figure-caption text-center">Tetris made with Unity</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure p-3">
+                            <a href="https://assistant.google.com/services/a/uid/000000a9332f0096?hl=en"><img src="coinprice.png" class="hov rounded-circle img-fluid mx-auto d-block p-3"></a>
+                            <figcaption class="figure-caption text-center">Cryptocurrency app for Google Assistant</figcaption>
+                        </figure>
+                    </div>
+                    <div class="col">
+                        <figure class="figure p-3">
+                            <a href="http://mi-dietrich.de/firework"><img src="firework.png" class="hov rounded-circle img-fluid mx-auto d-block p-3"></a>
+
+                            <figcaption class="figure-caption text-center">Firework animation made with P5.js</figcaption>
+
+                        </figure>
+                    </div>
 
 
+                </div>
+            </div>
+            <div class="p-3 footer">
+                <p id="footer-text">©2019 by Michael Dietrich</p>
+            </div>
+
+
+        </div>
 
     </div>
-    <div class="container ">
-        <center>
-            <p style="color: white; ">©2018 by Michael Dietrich</p>
-        </center>
-    </div>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
 
 </body>
 

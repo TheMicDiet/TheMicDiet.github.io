@@ -1,0 +1,56 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+td,
+th {
+    font-family: 'Orbitron', sans-serif;
+}
+
+a {
+    font-size: 1.6em;
+}
+
+#header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5em;
+    font-weight: 500;
+}
+
+.social a {
+    margin: 10px 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+#about-text,
+#project-text {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.figure-caption {
+    font-family: 'Orbitron', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.hov:hover {
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+.figure-caption {
+    color: black;
+}
