@@ -3,7 +3,7 @@ let typer = new TypeIt('#header', {
     startDelay: 500,
     afterComplete: function(instance) {
         instance.destroy()
-        typer3.init()
+        typer2.init()
     }
 });
 
